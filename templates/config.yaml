@@ -1,18 +1,12 @@
 css:
-    extension: .css
-    output: css
+    filename: output/css/{{ scheme-system }}-{{ scheme-slug }}.css
 css-variables:
-    extension: .css
-    output: css-variables
+    filename: output/css-variables/{{ scheme-system }}-{{ scheme-slug }}.css
 less:
-    extension: .less
-    output: less
+    filename: output/less/{{ scheme-system }}-{{ scheme-slug }}.less
 sass:
-    extension: .sass
-    output: sass
+    filename: output/sass/{{ scheme-system }}-{{ scheme-slug }}.sass
 scss:
-    extension: .scss
-    output: scss
+    filename: output/scss/{{ scheme-system }}-{{ scheme-slug }}.scss
 stylus:
-    extension: .styl
-    output: stylus
+    filename: output/stylus/{{ scheme-system }}-{{ scheme-slug }}.styl
